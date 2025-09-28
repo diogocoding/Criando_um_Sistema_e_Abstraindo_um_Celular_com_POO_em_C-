@@ -1,22 +1,40 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
+# Sistema de Hospedagem de Hotel em C#
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+## 📖 Sobre o Projeto
+Este é um projeto de laboratório (`Lab Project`) desenvolvido como parte da trilha de formação **.NET** da **Digital Innovation One (DIO)**.
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+O desafio consistiu em construir um sistema de console para gerenciar a hospedagem em um hotel, aplicando na prática os pilares da **Programação Orientada a Objetos (POO)**. O sistema modela entidades como suítes, pessoas e reservas, utilizando conceitos avançados de C# para criar uma aplicação coesa, funcional e de fácil manutenção.
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+## 🚀 Conceitos e Tecnologias Aplicadas
+O desenvolvimento deste projeto foi uma oportunidade para consolidar conhecimentos em:
+* **Linguagem:** C#
+* **Plataforma:** .NET
+* **Paradigma:** Programação Orientada a Objetos (POO)
+* **Pilares da POO:**
+    * **Abstração:** Criação de classes e entidades que modelam o domínio do problema.
+    * **Encapsulamento:** Proteção dos dados e comportamentos dentro dos objetos.
+    * **Herança:** Reutilização de código através de classes base e derivadas.
+    * **Polimorfismo:** Capacidade de objetos de classes diferentes responderem à mesma mensagem de maneiras distintas (`override`).
 
-![Diagrama classes](Imagens/diagrama.png)
+## 📚 Jornada de Aprendizagem
+Para a construção deste projeto, foi necessário absorver o conhecimento de diversos módulos e cursos focados em C# e no paradigma de Orientação a Objetos. A base de conhecimento para este desafio inclui:
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+* **Introdução, Abstração e Encapsulamento com C#**
+* **Herança e Polimorfismo com C#**
+* **Classes Abstratas e Interfaces com C#**
+* **Propriedades, Métodos e Construtores com C#**
+* **Exceções e Coleções com C#**
+* **Manipulando Valores com C#**
+* **Tuplas, Operador Ternário e Desconstrução de um Objeto com C#**
+* **Nuget, Serializar e Atributos no C#**
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## 🛠️ Como Executar
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+# 2. Navegue até a pasta do projeto
+cd seu-repositorio
+
+# 3. Execute a aplicação
+dotnet run
